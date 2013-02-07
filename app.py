@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '<h1>Hello World! Test</h1>'
+    return """<h1>Here is my site for CS270</h1>
+            <h2>all assignments are in /static</h2>"""
 
 
 if __name__ == '__main__':
