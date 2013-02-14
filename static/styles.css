@@ -1,16 +1,31 @@
 /* styles.css - an external style sheet for use with test.html */
-h2 {font-family: 'Times New Roman';
+h2 {font-family: 'Sans-Serif';
 	font-size: 2em; font-weight: bold;
 	text-indent:150px;
 }
-h1 {font-family: 'Times New Roman';
-	font-size: 1.5 em;
-	text-align:right;
+h1 {font-family: 'Sans-Serif';
+	padding: 4em;
+	padding-left: 30em;
+	font-size: 1.5em;
+	text-align:center;
 	background-color: rgb(192,192,192);
 	color: rgb(96,96,96) ;
-	border-bottom:5px solid #000;
+	border-bottom:0.5em; 
+	border-bottom-style: solid;
+	border-bottom-color: black;
 }
-dt {text-indent: 180px}
+dt {font-family: 'Sans-Serif';
+	text-indent:180px}
+
+ul{ text-indent:140px;}
+ul.list li{
+  display: inline;
+  font-style: italic;
+  list-style-type: none;
+
+}
 p {style=white-space:pre-wrap; width:60ex;
-	text-indent: 150px;
-  	margin-top: 0}
+	font-family: 'Sans-Serif';
+	padding-left: 150px;
+}
+
