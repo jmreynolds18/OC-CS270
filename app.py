@@ -1,12 +1,20 @@
 import os
-from flask import Flask
+from flask import Flask, redirect, url_for
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return """<h1>Here is my site for CS270</h1>
-            <h2>all assignments are in /static</h2>"""
+    return """<h1>Here is my site for CS270</h1>"""
+
+# Assignment 1: A haphazard page showing the most common HTML tags
+@app.route('/assignment1')
+def assignment_1():
+    return redirect(url_for('static', filename='assignment1.html'))
+# Assignment 1: A haphazard page showing the most common HTML tags
+@app.route('/assignment3')
+def assignment_3():
+    return redirect(url_for('static', filename='assignment3.html'))
 
 
 if __name__ == '__main__':
