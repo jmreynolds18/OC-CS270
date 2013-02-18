@@ -9,8 +9,14 @@ h1 {font-family: 'Sans-Serif';
 	border-bottom-style: solid;
 	border-bottom-color: black;
 }
+h2{font-family: 'Sans-Serif';
+	text-align:center;
+}
 
 ol{font-family: 'Sans-serif';
 	text-align:center;
-	
+}
+li{
+	font-style: italic;
+	list-style-type: none;
 }
