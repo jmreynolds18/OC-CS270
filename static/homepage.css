@@ -1,0 +1,16 @@
+h1 {font-family: 'Sans-Serif';
+	padding: 4em;
+	
+	font-size: 1.5em;
+	text-align:center;
+	background-color: rgb(192,192,192);
+	color: black ;
+	border-bottom:0.5em; 
+	border-bottom-style: solid;
+	border-bottom-color: black;
+}
+
+ol{font-family: 'Sans-serif';
+	text-align:center;
+	
+}

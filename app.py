@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return """<h1>Here is my site for CS270</h1>"""
+    return redirect(url_for('static', filename='homepage.html'))
 
 # Assignment 1: A haphazard page showing the most common HTML tags
 @app.route('/assignment1')
