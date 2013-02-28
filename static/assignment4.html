@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8" />
+		<title> 4.1-4.4</title>
+	</head>
+	
+	<!--Code for 4.1-->
+	<h1> 4.1 </h1>
+	<body>
+		<script type="text/javascript">
+		var number, square, cube;
+		document.write("Number, Square, Cube <br /><br />");
+		for (number = 5; number<16; number ++){
+    		square = number * number;
+    		cube = number * square;
+    		document.write(number + ",  " + square + ",  "  + cube + "<br />");
+	}
+		</script>
+	</body>
+	
+	<!--Code for 4.2-->
+	<h1> 4.2</h1>
+	<script type = "text/javascript">
+	var first = 1, second = 1, next, count;
+
+	document.write("First 20 Fibonacci Numbers <br/><br/>");
+	document.write("1 - 1 <br/> 2 - 1 <br/>");
+
+	for (count = 3; count <= 20; count++)  {
+		next = first + second;
+   		document.write(count + " - " + next + "<br/>");
+   		first = second;
+   		second = next; 
+	}
+	
+	</script>
+	
+	<!--Code for 4.3-->
+	<h1> 4.3 </h1>
+	<script type = "text/javascript">
+
+	number1 = window.prompt("First Number", ""); 
+	number2 = window.prompt("Second Number", ""); 
+	number3 = window.prompt("Third Number", ""); 
+	value1 = parseFloat(number1); 
+	value2 = parseFloat(number2); 
+	value3 = parseFloat(number3); 
+	MaxVal = Math.max(value1, value2, value3); 
+	document.write("The Maximum Number is: " + MaxVal);
+	</script>
+	
+	<!--Code for 4.4-->
+	<h1> 4.4 </h1>
+	<script type = "text/javascript">
+	var first = 1, second = 1, next, count;
+
+	number = prompt("How many Fibonacci numbers do you want? (3-50)", "");
+
+	if (number >= 3 && number <= 50) {
+   		document.write("First " + number + " Fibonacci Numbers <br /><br />");
+   		document.write("1 - 1 <br/> 2 - 1 <br />");
+
+      	for (count = 3; count <= number; count++)  {
+        	next = first + second;
+        	document.write(count + " - " + next + "<br />");
+        	first = second;
+        	second = next; 
+      	}
+   	}
+	else
+   		document.write("Error - number not in the range 3-50");
+	</script>
+
+
+		
+</html>
