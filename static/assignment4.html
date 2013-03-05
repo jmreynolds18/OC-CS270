@@ -2,7 +2,7 @@
 <html lang = "en">
 	<head>
 		<meta charset="utf-8" />
-		<title> 4.1-4.4</title>
+		<title> Chapter 4 assignments</title>
 	</head>
 	
 	<!--Code for 4.1-->
@@ -72,6 +72,62 @@
    		document.write("Error - number not in the range 3-50");
 	</script>
 
+	<!-- Code for 4.5-->
+	<h1> 4.5 </h1>
+	<script type = "text/javascript">
 
-		
+	var msg=prompt("Please enter your Last name, first name and middle initial", "");
+	
+
+	if (msg.match(/^[A-Z][a-z]{1,14}, [A-Z][a-z]{1,14}, [A-Z]\.?$/)) {
+        alert("Valid");
+    }
+    else {
+        alert("Invalid");
+    }
+	</script>
+
+	<!-- Code for 4.6-->
+
+	<h1> 4.6 </h1>
+	<script type = "text/javascript">
+
+	var a = prompt("Please enter a line of text\n", " ");
+
+	var mySplitResult = a.split(" ");
+	document.write(mySplitResult.sort());
+	</script>	
+
+	<!-- Code for 4.7-->
+	<h1> 4.7 </h1>
+	<script type = "text/javascript">
+
+	var a = prompt("Please enter a line of text\n", " ");
+
+	var mySplitResult = a.split(" ");
+	document.write(mySplitResult.reverse());
+	</script>
+	<!-- Code for 4.8-->
+	<h1> 4.8 </h1>
+	<script type = "text/javascript">
+
+	var num_list= [0,1,2,3,4,5,6,0,0,90];
+
+	function no_zeros(num_list, 0)
+	{
+		var num_list= [0,1,2,3,4,5,6,0,0,90];
+		for(var 1=0); i<num_list.length; i++)
+		{
+			if(num_list[i]==0)
+				num_list.split(i,1);
+			
+	
+		}
+		return num_list;
+	}
+
+	
+
+	</script>
+
 </html>
