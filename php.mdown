@@ -1,0 +1,132 @@
+<h1>$page_title</h1>
+
+using 
+-----
+```
+<?php 
+	$home_page = true
+	if ($home_page) {
+		$page_title = "Hello, World!";
+		$visits += 1;
+	}
+	else
+		$page_title = "About Us";
+
+	print "<h1>$page_title</h1>";
+	?>
+```
+Gives:
+
+```
+<h1>Hello, World!</h1>
+```
+
+Control Statements
+------------------
+
+#### Conditionals
+* if
+* elseif
+* else
+* switch
+* case
+* default
+
+### Loops
+
+* while
+* do
+* for 
+* foreach
+
+#### if-elseif-else
+```
+if (<expression>) {
+	<statement(s)>
+}
+elseif (<expression>){
+	<statement(s)>
+}
+else
+	<statemetn>
+```
+
+#### switch
+
+```
+switch (<expression_s_i_d>) {
+	case <match>:
+		<statement(s)>
+		break;
+	case <match2>:
+		<statement(s)>
+		break;
+	default:
+		<statement(s)>
+}
+```
+
+<?php
+	$weekday = "M";
+	switch ($weekday) {
+		case "N":
+			print "Sunday";
+			break;
+		case "M":
+			print "Monday";
+			break
+		case "T":
+			print "Tuesday";
+			break;
+
+		default:
+			print "That is not a day!"
+	}
+?>
+```
+
+### Loops
+* While (uncounted, 0 or more times)
+* do    (uncounted, 1 or more times)
+* for
+* foreach
+* break
+* continue
+
+#### while
+```
+while(<expression>)
+	<statement>
+while(<expression>){
+	<statement(s)>
+}
+```
+
+#### do-while
+```
+do {
+	<statements>
+} while(<expression>);
+```
+
+#### for 
+
+```
+for (<init>; <expression>; <increment>){
+	<statement>
+}
+```
+
+```
+<?php
+	for ($i = 0; $i < 10; $i ++) {
+		print "<p>Paragraph $i</p>";
+	}
+
+	$i = 0
+	while ($i < 10 ) {
+		print "<p>Paragraph $i</p>";
+		$i++;
+	}
+?>
+```
