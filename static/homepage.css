@@ -13,10 +13,14 @@ h2{font-family: 'Sans-Serif';
 	text-align:center;
 }
 
-ol{font-family: 'Sans-serif';
+dl{font-family: 'Sans-serif';
 	text-align:center;
 }
-li{
+dt{
 	font-style: italic;
 	list-style-type: none;
+}
+dd{
+	font-family: 'Sans-Serif';
+	text-align: center;
 }
